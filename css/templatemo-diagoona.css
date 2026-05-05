@@ -68,7 +68,7 @@ p { line-height: 1.9; }
     left: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh !important;
     display: flex;
     z-index: -1000;
     background-size: cover;
@@ -80,7 +80,7 @@ p { line-height: 1.9; }
 .tm-bg-right {
     position: relative;
     width: 50%;
-    height: 100%;
+    height: 100vh !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
