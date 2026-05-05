@@ -2,7 +2,7 @@ const initBg = (autoplay = true) => {
     const bgImgsNames = ['fundostephano.png', 'fundoenergia.png', 'fundotelecon.png'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
-    $.backstretch(bgImgs, {duration: 4000, fade: 500});
+    $.backstretch(bgImgs, {duration: 4000, fade: 500, centeredX: true, centeredY: true});
 
     if(!autoplay) {
       $.backstretch('pause');  
