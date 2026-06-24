@@ -119,7 +119,10 @@ p { line-height: 1.9; }
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-between;
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
 }
 
 .tm-row { display: flex; }
